@@ -255,6 +255,12 @@
   flex-grow: 1;
 }
 
+.query-row-field--with-status {
+  .slate-query-field {
+    margin-right: 30px;
+  }
+}
+
 .query-transactions {
   display: table;
 }

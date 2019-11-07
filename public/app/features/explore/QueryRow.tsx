@@ -150,7 +150,7 @@ export class QueryRow extends PureComponent<QueryRowProps, QueryRowState> {
 
     return (
       <div className="query-row">
-        <div className="query-row-field flex-shrink-1">
+        <div className="query-row-field flex-shrink-1 query-row-field--with-status">
           {QueryField ? (
             //@ts-ignore
             <QueryField
